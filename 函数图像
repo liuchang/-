@@ -1,0 +1,7 @@
+from pylab import * #导入pylab，构建类似于MATLAB的环境
+
+x = linspace(0,15,200)
+
+y= -3*(x-30)**2*sin(x)
+
+plot(x,y),show()
